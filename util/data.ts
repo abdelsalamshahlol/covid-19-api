@@ -54,9 +54,7 @@ export const getIso3Code = update => {
 export const addArabicName = update => {
     // console.log(update)
     const countryAr = countriesAr[update.iso2];
-    if (countryAr) {
-        update.name_ar = countryAr;
-    }
+    update.name_ar = countryAr ? countryAr: null;
     return update;
 };
 
