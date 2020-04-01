@@ -2,9 +2,11 @@
   <img width="500" src="https://covid19.mathdro.id/api/og" />
 </p>
 
-# COVID-19 API
+# COVID-19 API (with country names in Arabic)
 
 > Serving data from John Hopkins University CSSE as a [JSON API](https://covid19.mathdro.id)
+
+> Serving data from John Hopkins University CSSE as a [JSON API w/ arabic country names](https://covid-19-api-shahlol.now.sh)
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/mathdroid/covid-19-api)
 
