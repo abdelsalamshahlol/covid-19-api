@@ -4,7 +4,8 @@ import {
   attributeSpreader,
   normalizeKeys,
   matchCountryCode,
-  getIso3Code
+  getIso3Code,
+  addArabicName
 } from "../../util/data";
 import { queryRecovered } from "../../util/query";
 import { getEndpoint } from "../../util/endpoints";
@@ -20,6 +21,7 @@ export default async (request: NowRequest, response: NowResponse) => {
     .map(attributeSpreader)
     .map(normalizeKeys)
     .map(matchCountryCode)
-    .map(getIso3Code);
+    .map(getIso3Code)
+    .map(addArabicName);
   response.json(data);
 };
