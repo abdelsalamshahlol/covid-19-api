@@ -701,7 +701,7 @@ export const countriesAr = {
     "HN": "هندوراس",
     "HU": "هنغاريا",
     "NL": "هولندا",
-    "LI": "الكيان الصهيوني"
+    "IL": "الكيان الصهيوني"
 };
 
 export const nonISO = {
