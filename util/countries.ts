@@ -700,7 +700,24 @@ export const countriesAr = {
     "HT": "هايتي",
     "HN": "هندوراس",
     "HU": "هنغاريا",
-    "NL": "هولندا"
+    "NL": "هولندا",
+    "LI": "الكيان الصهيوني"
+};
+
+export const nonISO = {
+    "Diamond Princess" : "السفينة دايموند برنسس",
+    "North Macedonia" : "شمال مقدونيا",
+    "Cote d'Ivoire" : "ساحل العاج",
+    "West Bank and Gaza" : "الضفة الغربية وقطاع غزة",
+    "Congo (Kinshasa)" : "الكونغو-كينشاسا",
+    "Congo (Brazzaville)" : "الكونغو-برازافيل",
+    "Burma" : "بورما",
+    "Eswatini" : "إسواتيني",
+    "MS Zaandam" : "السفينة إم إس زاندام",
+    "Holy See" : "الكرسي البابوي",
+    "Cabo Verde": "الرأس الأخض",
+    "Gambia" : "غامبيا",
+    "Timor-Lest": "جمهورية تيمور الشرقية الديمقراطية"
 };
 
 const getIso2ByAlias = (countryName: string) => {
