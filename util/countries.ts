@@ -701,23 +701,32 @@ export const countriesAr = {
     "HN": "هندوراس",
     "HU": "هنغاريا",
     "NL": "هولندا",
-    "IL": "الكيان الصهيوني"
+    "IL": "الكيان الصهيوني",
+    "DK": "الدنمارك",
+    "ZA": "جنوب افريقيا",
+    "TW": "تايوان",
+    "KE": "كينيا",
+    "XK": "كوسوفو",
+    "PY": "باراغواي",
+    "LI": "إمارة ليختنشتاين",
+    "BD": "بنغلاديش",
+    "SY": "سُورِيَة",
 };
 
 export const nonISO = {
-    "Diamond Princess" : "السفينة دايموند برنسس",
-    "North Macedonia" : "شمال مقدونيا",
-    "Cote d'Ivoire" : "ساحل العاج",
-    "West Bank and Gaza" : "الضفة الغربية وقطاع غزة",
-    "Congo (Kinshasa)" : "الكونغو-كينشاسا",
-    "Congo (Brazzaville)" : "الكونغو-برازافيل",
-    "Burma" : "بورما",
-    "Eswatini" : "إسواتيني",
-    "MS Zaandam" : "السفينة إم إس زاندام",
-    "Holy See" : "الكرسي البابوي",
+    "Diamond Princess": "السفينة دايموند برنسس",
+    "North Macedonia": "شمال مقدونيا",
+    "Cote d'Ivoire": "ساحل العاج",
+    "West Bank and Gaza": "الضفة الغربية وقطاع غزة",
+    "Congo (Kinshasa)": "الكونغو-كينشاسا",
+    "Congo (Brazzaville)": "الكونغو-برازافيل",
+    "Burma": "بورما",
+    "Eswatini": "إسواتيني",
+    "MS Zaandam": "السفينة إم إس زاندام",
+    "Holy See": "الكرسي البابوي",
     "Cabo Verde": "الرأس الأخض",
-    "Gambia" : "غامبيا",
-    "Timor-Leste": "جمهورية تيمور الشرقية الديمقراطية"
+    "Gambia": "غامبيا",
+    "Timor-Leste": "جمهورية تيمور الشرقية الديمقراطية",
 };
 
 const getIso2ByAlias = (countryName: string) => {
