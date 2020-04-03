@@ -717,7 +717,7 @@ export const nonISO = {
     "Holy See" : "الكرسي البابوي",
     "Cabo Verde": "الرأس الأخض",
     "Gambia" : "غامبيا",
-    "Timor-Lest": "جمهورية تيمور الشرقية الديمقراطية"
+    "Timor-Leste": "جمهورية تيمور الشرقية الديمقراطية"
 };
 
 const getIso2ByAlias = (countryName: string) => {

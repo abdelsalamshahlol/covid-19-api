@@ -1,6 +1,6 @@
 import {NowResponse} from "@now/node";
 
-import {countries, iso3, aliases, countriesAr} from "../../util/countries";
+import {countries, iso3, aliases, countriesAr, nonISO} from "../../util/countries";
 import {
     fetchFeatures,
     attributeSpreader,
@@ -22,7 +22,7 @@ export default async (_, res: NowResponse) => {
             const iso2Country =
                 countries[countryRegion] || aliases[countryRegion.toLowerCase()];
             const iso3Country = iso3[iso2Country];
-            const nameArabic = countriesAr[iso2Country];
+            const nameArabic = countriesAr[iso2Country] || nonISO[countryRegion];
             return {
                 name: countryRegion,
                 iso2: iso2Country,
